@@ -1,0 +1,299 @@
+{
+  "appName": {
+    "message": "Tingye"
+  },
+  "appDesc": {
+    "message": "Tingye · 웹페이지를 감성적인 음성으로 읽어 줍니다. 본문이나 요소를 추출해 원하는 언어로 번역하며 뉴럴 음성으로 읽습니다."
+  },
+  "playback": {
+    "message": "재생 제어"
+  },
+  "prev": {
+    "message": "이전"
+  },
+  "next": {
+    "message": "다음"
+  },
+  "play": {
+    "message": "재생"
+  },
+  "pause": {
+    "message": "일시정지"
+  },
+  "resume": {
+    "message": "계속"
+  },
+  "stop": {
+    "message": "정지"
+  },
+  "settings": {
+    "message": "설정"
+  },
+  "close": {
+    "message": "닫기"
+  },
+  "closeSettings": {
+    "message": "설정 닫기"
+  },
+  "area": {
+    "message": "읽기 영역"
+  },
+  "areaArticle": {
+    "message": "본문만"
+  },
+  "areaElements": {
+    "message": "요소만"
+  },
+  "areaAll": {
+    "message": "전체"
+  },
+  "mode": {
+    "message": "읽기 방식"
+  },
+  "modeOnce": {
+    "message": "연속"
+  },
+  "modeLoop": {
+    "message": "반복"
+  },
+  "modeAuto": {
+    "message": "자동"
+  },
+  "autoHint": {
+    "message": "자동: 선택 즉시 적용됩니다. 탭을 전환하거나 페이지를 이동하면 자동으로 추출해 읽습니다(사이드 패널을 열어 두세요)."
+  },
+  "targetLang": {
+    "message": "대상 언어"
+  },
+  "engine": {
+    "message": "음성 엔진"
+  },
+  "engineEdge": {
+    "message": "Microsoft 뉴럴 음성"
+  },
+  "engineBrowser": {
+    "message": "브라우저 음성"
+  },
+  "voice": {
+    "message": "음색"
+  },
+  "rate": {
+    "message": "속도"
+  },
+  "extract": {
+    "message": "현재 페이지 추출"
+  },
+  "openaiSettings": {
+    "message": "OpenAI 설정"
+  },
+  "previewIntro": {
+    "message": "페이지를 열고 '재생'을 누르면 읽어 드립니다."
+  },
+  "previewEmpty": {
+    "message": "페이지를 열고 '재생' 또는 '추출'을 누르세요."
+  },
+  "readyCount": {
+    "message": "준비 · $1개 단락"
+  },
+  "pausedPos": {
+    "message": "일시정지 · $1 / $2"
+  },
+  "readingPos": {
+    "message": "읽는 중 · $1 / $2"
+  },
+  "hintEdge": {
+    "message": "Microsoft Edge 소리 내어 읽기 뉴럴 음성. 무료이며 감성적이고, 실패 시 브라우저 음성으로 전환됩니다."
+  },
+  "hintOpenaiKey": {
+    "message": "API 키 저장됨. gpt-4o-mini-tts 사용."
+  },
+  "hintOpenaiNoKey": {
+    "message": "먼저 'OpenAI 설정'에 API 키를 붙여 넣으세요."
+  },
+  "hintBrowser": {
+    "message": "이름에 Neural / Google / Microsoft / Premium이 포함된 음성을 우선합니다."
+  },
+  "voiceAuto": {
+    "message": "언어 자동 맞춤(Neural 우선)"
+  },
+  "chunkOriginal": {
+    "message": "클릭하여 여기부터 읽기 · 원문"
+  },
+  "chunkTranslated": {
+    "message": "클릭하여 여기부터 읽기 · 번역됨"
+  },
+  "noActiveTab": {
+    "message": "활성 탭이 없습니다"
+  },
+  "extracting": {
+    "message": "추출 중…"
+  },
+  "extractFail": {
+    "message": "추출 실패"
+  },
+  "extracted": {
+    "message": "$1개 단락 추출됨"
+  },
+  "noContentArea": {
+    "message": "이 영역에 읽을 내용이 없습니다"
+  },
+  "providerMicrosoft": {
+    "message": "Microsoft"
+  },
+  "providerSkip": {
+    "message": "건너뜀(이미 대상 언어)"
+  },
+  "audioFail": {
+    "message": "오디오 재생 실패"
+  },
+  "noOpenaiKey": {
+    "message": "OpenAI API 키가 설정되지 않았습니다"
+  },
+  "neuralFallback": {
+    "message": "뉴럴 음성 실패, 브라우저 음성으로 전환…"
+  },
+  "translatingN": {
+    "message": "번역 중 $1/$2"
+  },
+  "readingN": {
+    "message": "읽는 중 $1/$2"
+  },
+  "readError": {
+    "message": "읽기 오류: $1"
+  },
+  "readFail": {
+    "message": "읽기 실패: $1"
+  },
+  "translateAllFail": {
+    "message": "번역이 모두 실패해 원문을 읽었습니다"
+  },
+  "doneWithFallback": {
+    "message": "읽기 완료($1개 단락은 원문)"
+  },
+  "done": {
+    "message": "읽기 완료"
+  },
+  "noContent": {
+    "message": "읽을 내용이 없습니다"
+  },
+  "paused": {
+    "message": "일시정지됨"
+  },
+  "resumed": {
+    "message": "계속 읽기"
+  },
+  "stopped": {
+    "message": "정지됨"
+  },
+  "pageSwitched": {
+    "message": "페이지 전환됨, 자동 읽기 준비 중…"
+  },
+  "autoNoContent": {
+    "message": "자동 읽기: 새 페이지에 읽을 내용이 없습니다"
+  },
+  "autoFail": {
+    "message": "자동 읽기 실패: $1"
+  },
+  "autoOn": {
+    "message": "자동 읽기 켜짐: 페이지를 전환하면 자동으로 읽습니다"
+  },
+  "readyOpen": {
+    "message": "준비됨: 페이지를 열고 재생을 누르세요"
+  },
+  "injectFail": {
+    "message": "이 페이지에서는 실행할 수 없습니다(chrome:// 또는 스토어 등)"
+  },
+  "emptyText": {
+    "message": "빈 텍스트"
+  },
+  "ttsTimeout": {
+    "message": "Edge TTS 시간 초과"
+  },
+  "ttsNoAudio": {
+    "message": "Edge TTS 오디오 데이터 없음"
+  },
+  "ttsWsFail": {
+    "message": "Edge TTS 연결 실패(브라우저 음성을 사용해 보세요)"
+  },
+  "ttsClosed": {
+    "message": "Edge TTS 연결이 오디오 없이 종료됨"
+  },
+  "kLink": {
+    "message": "링크"
+  },
+  "kButton": {
+    "message": "버튼"
+  },
+  "kInput": {
+    "message": "입력"
+  },
+  "kTextbox": {
+    "message": "텍스트 상자"
+  },
+  "kSelect": {
+    "message": "선택"
+  },
+  "kDropdown": {
+    "message": "드롭다운"
+  },
+  "kOption": {
+    "message": "옵션"
+  },
+  "kLabel": {
+    "message": "레이블"
+  },
+  "kSummary": {
+    "message": "요약"
+  },
+  "kControl": {
+    "message": "컨트롤"
+  },
+  "vWarm": {
+    "message": "따뜻함"
+  },
+  "vSoft": {
+    "message": "부드러움"
+  },
+  "vNeutral": {
+    "message": "중성"
+  },
+  "vXiaoxiao": {
+    "message": "Xiaoxiao · 부드러움(추천)"
+  },
+  "vYunxi": {
+    "message": "Yunxi · 활발한 남성"
+  },
+  "vYunyang": {
+    "message": "Yunyang · 뉴스 톤"
+  },
+  "vXiaoyi": {
+    "message": "Xiaoyi · 또렷한 여성"
+  },
+  "vHsiaoChen": {
+    "message": "HsiaoChen · 대만 중국어"
+  },
+  "optTitle": {
+    "message": "Tingye · 설정"
+  },
+  "optHeading": {
+    "message": "OpenAI TTS(선택)"
+  },
+  "optHint": {
+    "message": "로컬 chrome.storage.local에만 저장되며 업로드되지 않습니다. 기본 모델 gpt-4o-mini-tts. 비워 두면 Microsoft 뉴럴 음성이나 브라우저 음성만 사용합니다."
+  },
+  "optVoice": {
+    "message": "기본 음색"
+  },
+  "save": {
+    "message": "저장"
+  },
+  "clearKey": {
+    "message": "키 삭제"
+  },
+  "saved": {
+    "message": "저장됨"
+  },
+  "cleared": {
+    "message": "API 키 삭제됨"
+  }
+}

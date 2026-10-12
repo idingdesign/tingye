@@ -1,0 +1,299 @@
+{
+  "appName": {
+    "message": "听页"
+  },
+  "appDesc": {
+    "message": "听页 · 把当前网页变成有感情的朗读。提取正文或元素，译成目标语言，神经语音边译边读。"
+  },
+  "playback": {
+    "message": "播放控制"
+  },
+  "prev": {
+    "message": "上一段"
+  },
+  "next": {
+    "message": "下一段"
+  },
+  "play": {
+    "message": "开始"
+  },
+  "pause": {
+    "message": "暂停"
+  },
+  "resume": {
+    "message": "继续"
+  },
+  "stop": {
+    "message": "停止"
+  },
+  "settings": {
+    "message": "设置"
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "closeSettings": {
+    "message": "关闭设置"
+  },
+  "area": {
+    "message": "阅读区域"
+  },
+  "areaArticle": {
+    "message": "仅读正文"
+  },
+  "areaElements": {
+    "message": "仅读元素"
+  },
+  "areaAll": {
+    "message": "全部阅读"
+  },
+  "mode": {
+    "message": "阅读方式"
+  },
+  "modeOnce": {
+    "message": "连续阅读"
+  },
+  "modeLoop": {
+    "message": "重复阅读"
+  },
+  "modeAuto": {
+    "message": "自动阅读"
+  },
+  "autoHint": {
+    "message": "自动：选中后即生效。切换到其他标签、或同标签跳转后，会自动提取并朗读（侧栏需保持打开）。"
+  },
+  "targetLang": {
+    "message": "目标语言"
+  },
+  "engine": {
+    "message": "语音引擎"
+  },
+  "engineEdge": {
+    "message": "Microsoft 神经语音"
+  },
+  "engineBrowser": {
+    "message": "浏览器语音"
+  },
+  "voice": {
+    "message": "音色"
+  },
+  "rate": {
+    "message": "语速"
+  },
+  "extract": {
+    "message": "提取当前页"
+  },
+  "openaiSettings": {
+    "message": "OpenAI 设置"
+  },
+  "previewIntro": {
+    "message": "打开网页后点「开始」，听页会帮你朗读。"
+  },
+  "previewEmpty": {
+    "message": "打开网页后点「开始」或「提取」。"
+  },
+  "readyCount": {
+    "message": "就绪 · $1 段"
+  },
+  "pausedPos": {
+    "message": "已暂停 · $1 / $2"
+  },
+  "readingPos": {
+    "message": "朗读中 · $1 / $2"
+  },
+  "hintEdge": {
+    "message": "Microsoft Edge Read Aloud 神经语音，免费、有感情；失败会回退浏览器语音。"
+  },
+  "hintOpenaiKey": {
+    "message": "已保存 API Key，使用 gpt-4o-mini-tts。"
+  },
+  "hintOpenaiNoKey": {
+    "message": "请先在「OpenAI 设置」里粘贴 API Key。"
+  },
+  "hintBrowser": {
+    "message": "优先选用名称含 Neural / Google / Microsoft / Premium 的系统语音。"
+  },
+  "voiceAuto": {
+    "message": "自动匹配语言（优先 Neural）"
+  },
+  "chunkOriginal": {
+    "message": "点击从此段朗读 · 原文"
+  },
+  "chunkTranslated": {
+    "message": "点击从此段朗读 · 已翻译"
+  },
+  "noActiveTab": {
+    "message": "没有活动标签页"
+  },
+  "extracting": {
+    "message": "正在提取…"
+  },
+  "extractFail": {
+    "message": "提取失败"
+  },
+  "extracted": {
+    "message": "已提取 $1 段"
+  },
+  "noContentArea": {
+    "message": "当前区域没有可朗读内容"
+  },
+  "providerMicrosoft": {
+    "message": "微软"
+  },
+  "providerSkip": {
+    "message": "跳过（已是目标语言）"
+  },
+  "audioFail": {
+    "message": "音频播放失败"
+  },
+  "noOpenaiKey": {
+    "message": "未配置 OpenAI API Key"
+  },
+  "neuralFallback": {
+    "message": "神经语音失败，改用浏览器语音…"
+  },
+  "translatingN": {
+    "message": "翻译中 $1/$2"
+  },
+  "readingN": {
+    "message": "朗读中 $1/$2"
+  },
+  "readError": {
+    "message": "朗读出错：$1"
+  },
+  "readFail": {
+    "message": "朗读失败：$1"
+  },
+  "translateAllFail": {
+    "message": "翻译全部失败，已朗读原文"
+  },
+  "doneWithFallback": {
+    "message": "朗读完成（$1 段回退原文）"
+  },
+  "done": {
+    "message": "朗读完成"
+  },
+  "noContent": {
+    "message": "没有可朗读内容"
+  },
+  "paused": {
+    "message": "已暂停"
+  },
+  "resumed": {
+    "message": "继续朗读"
+  },
+  "stopped": {
+    "message": "已停止"
+  },
+  "pageSwitched": {
+    "message": "页面已切换，准备自动阅读…"
+  },
+  "autoNoContent": {
+    "message": "自动阅读：新页面没有可朗读内容"
+  },
+  "autoFail": {
+    "message": "自动阅读失败：$1"
+  },
+  "autoOn": {
+    "message": "自动阅读已开启：切换页面后会自动提取并朗读"
+  },
+  "readyOpen": {
+    "message": "就绪：打开网页后点开始"
+  },
+  "injectFail": {
+    "message": "无法在此页面注入脚本（如 chrome:// 或商店页）"
+  },
+  "emptyText": {
+    "message": "空文本"
+  },
+  "ttsTimeout": {
+    "message": "Edge TTS 超时"
+  },
+  "ttsNoAudio": {
+    "message": "Edge TTS 无音频数据"
+  },
+  "ttsWsFail": {
+    "message": "Edge TTS WebSocket 连接失败（可改用浏览器语音）"
+  },
+  "ttsClosed": {
+    "message": "Edge TTS 连接已关闭且无音频"
+  },
+  "kLink": {
+    "message": "链接"
+  },
+  "kButton": {
+    "message": "按钮"
+  },
+  "kInput": {
+    "message": "输入"
+  },
+  "kTextbox": {
+    "message": "文本框"
+  },
+  "kSelect": {
+    "message": "选择"
+  },
+  "kDropdown": {
+    "message": "下拉"
+  },
+  "kOption": {
+    "message": "选项"
+  },
+  "kLabel": {
+    "message": "标签"
+  },
+  "kSummary": {
+    "message": "摘要"
+  },
+  "kControl": {
+    "message": "控件"
+  },
+  "vWarm": {
+    "message": "温暖"
+  },
+  "vSoft": {
+    "message": "柔和"
+  },
+  "vNeutral": {
+    "message": "中性"
+  },
+  "vXiaoxiao": {
+    "message": "晓晓 · 温柔（推荐）"
+  },
+  "vYunxi": {
+    "message": "云希 · 活泼男"
+  },
+  "vYunyang": {
+    "message": "云扬 · 新闻感"
+  },
+  "vXiaoyi": {
+    "message": "晓伊 · 清晰女"
+  },
+  "vHsiaoChen": {
+    "message": "曉臻 · 台湾"
+  },
+  "optTitle": {
+    "message": "听页 · 设置"
+  },
+  "optHeading": {
+    "message": "OpenAI TTS（可选）"
+  },
+  "optHint": {
+    "message": "仅保存在本机 chrome.storage.local，不会上传到任何服务器。模型默认 gpt-4o-mini-tts。不填则只用 Microsoft 神经语音或浏览器语音。"
+  },
+  "optVoice": {
+    "message": "默认音色"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "clearKey": {
+    "message": "清除 Key"
+  },
+  "saved": {
+    "message": "已保存"
+  },
+  "cleared": {
+    "message": "已清除 API Key"
+  }
+}

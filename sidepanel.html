@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="appName">Tingye</title>
+  <link rel="stylesheet" href="sidepanel.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="transport" role="group" data-i18n-aria="playback">
+        <button class="ctrl-btn" id="btnPrev" type="button" data-i18n-title="prev" data-i18n-aria="prev" disabled>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6 6h2v12H6V6zm3.5 6 8.5 6V6l-8.5 6z"/></svg>
+          <span data-i18n="prev"></span>
+        </button>
+        <button class="ctrl-btn ctrl-primary" id="btnPlay" type="button" data-i18n-title="play" data-i18n-aria="play">
+          <svg viewBox="0 0 24 24" aria-hidden="true" id="playIcon"><path fill="currentColor" d="M8 5v14l11-7L8 5z"/></svg>
+          <span id="playLabel" data-i18n="play"></span>
+        </button>
+        <button class="ctrl-btn" id="btnNext" type="button" data-i18n-title="next" data-i18n-aria="next" disabled>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6 18l8.5-6L6 6v12zm10-12v12h2V6h-2z"/></svg>
+          <span data-i18n="next"></span>
+        </button>
+        <button class="ctrl-btn ctrl-stop" id="btnStop" type="button" data-i18n-title="stop" data-i18n-aria="stop" disabled>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6 6h12v12H6V6z"/></svg>
+          <span data-i18n="stop"></span>
+        </button>
+      </div>
+      <button class="ctrl-btn" id="btnSettings" type="button" data-i18n-title="settings" data-i18n-aria="settings" aria-expanded="false" aria-controls="settingsDrawer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.14 12.94c.04-.31.06-.63.06-.94s-.02-.63-.06-.94l2.03-1.58a.5.5 0 0 0 .12-.64l-1.92-3.32a.5.5 0 0 0-.6-.22l-2.39.96a7.1 7.1 0 0 0-1.63-.94l-.36-2.54A.5.5 0 0 0 13.9 2h-3.8a.5.5 0 0 0-.49.42l-.36 2.54c-.58.23-1.12.54-1.63.94l-2.39-.96a.5.5 0 0 0-.6.22L2.71 8.48a.5.5 0 0 0 .12.64l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94L2.83 14.16a.5.5 0 0 0-.12.64l1.92 3.32c.13.23.4.32.64.22l2.39-.96c.5.4 1.05.72 1.63.94l.36 2.54c.05.24.25.42.49.42h3.8c.24 0 .44-.18.49-.42l.36-2.54c.58-.22 1.13-.54 1.63-.94l2.39.96c.24.1.51 0 .64-.22l1.92-3.32a.5.5 0 0 0-.12-.64l-2.03-1.58zM12 15.5A3.5 3.5 0 1 1 12 8.5a3.5 3.5 0 0 1 0 7z"/></svg>
+        <span data-i18n="settings"></span>
+      </button>
+    </header>
+
+    <aside class="settings-drawer" id="settingsDrawer" hidden>
+      <div class="drawer-head">
+        <h2 data-i18n="settings"></h2>
+        <button class="icon-btn" id="btnCloseSettings" type="button" data-i18n-aria="closeSettings" data-i18n="close"></button>
+      </div>
+      <div class="drawer-body">
+        <div class="field">
+          <span class="field-label" data-i18n="area"></span>
+          <div class="seg" role="radiogroup" data-i18n-aria="area">
+            <label><input type="radio" name="area" value="article" checked /><span data-i18n="areaArticle"></span></label>
+            <label><input type="radio" name="area" value="elements" /><span data-i18n="areaElements"></span></label>
+            <label><input type="radio" name="area" value="all" /><span data-i18n="areaAll"></span></label>
+          </div>
+        </div>
+
+        <div class="field">
+          <span class="field-label" data-i18n="mode"></span>
+          <div class="seg" role="radiogroup" data-i18n-aria="mode">
+            <label><input type="radio" name="mode" value="once" checked /><span data-i18n="modeOnce"></span></label>
+            <label><input type="radio" name="mode" value="loop" /><span data-i18n="modeLoop"></span></label>
+            <label><input type="radio" name="mode" value="auto" /><span data-i18n="modeAuto"></span></label>
+          </div>
+          <p class="hint" data-i18n="autoHint"></p>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="lang" data-i18n="targetLang"></label>
+          <select id="lang">
+            <option value="zh-CN" selected>中文（简体）</option>
+            <option value="zh-TW">中文（繁體）</option>
+            <option value="en">English</option>
+            <option value="ja">日本語</option>
+            <option value="ko">한국어</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="es">Español</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="engine" data-i18n="engine"></label>
+          <select id="engine">
+            <option value="edge" selected data-i18n="engineEdge"></option>
+            <option value="browser" data-i18n="engineBrowser"></option>
+            <option value="openai">OpenAI TTS</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="voice" data-i18n="voice"></label>
+          <select id="voice"></select>
+          <p class="hint" id="engineHint"></p>
+        </div>
+
+        <div class="field">
+          <div class="slider-meta"><span class="field-label" data-i18n="rate"></span><span id="rateLabel">1.0×</span></div>
+          <input type="range" id="rate" min="0.7" max="1.5" step="0.05" value="1" />
+        </div>
+
+        <div class="field field-links">
+          <button class="ctrl-btn ctrl-extract" id="btnExtract" type="button" data-i18n-title="extract">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M4 4h7v2H6v12h12v-5h2v7H4V4zm9 0h7v7h-2V7.41l-7.3 7.3-1.4-1.42L16.58 6H13V4z"/></svg>
+            <span data-i18n="extract"></span>
+          </button>
+          <button class="linkish" id="btnOptions" type="button" data-i18n="openaiSettings"></button>
+        </div>
+
+        <p class="page-meta" id="pageMeta"></p>
+
+        <footer class="drawer-brand" aria-label="iding.net">
+          <span class="brand-site">iding.net</span>
+        </footer>
+      </div>
+    </aside>
+
+    <div class="progress-bar" aria-hidden="true"><div class="progress-fill" id="progressFill"></div></div>
+    <div class="meta-strip">
+      <span class="progress-text" id="progressText"></span>
+      <span class="status" id="status" aria-live="polite"></span>
+    </div>
+
+    <main class="preview-wrap">
+      <div class="preview" id="preview" tabindex="0" data-i18n="previewIntro"></div>
+    </main>
+
+  </div>
+
+  <script src="lib/i18n.js"></script>
+  <script src="lib/edge-tts.js"></script>
+  <script src="sidepanel.js"></script>
+</body>
+</html>

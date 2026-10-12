@@ -1,0 +1,11 @@
+.iding-reader-hl {
+  outline: 2px solid rgba(111, 143, 130, 0.55) !important;
+  outline-offset: 2px !important;
+  background-color: rgba(111, 143, 130, 0.14) !important;
+  box-shadow: none !important;
+  transition: outline-color 0.15s ease, background-color 0.15s ease;
+  border-radius: 6px;
+  scroll-margin: 100px;
+  position: relative;
+  z-index: 2147483646;
+}

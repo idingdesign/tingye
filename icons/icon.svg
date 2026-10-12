@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" role="img" aria-label="听页">
+  <!-- Page with dog-ear + monoline sound arcs. Sage #6F8F82. -->
+  <g stroke="#6F8F82" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Page outline -->
+    <path d="M22 25 H64 L80 41 V103 H22 Z"/>
+    <!-- Fold -->
+    <path d="M64 25 V41 H80"/>
+    <!-- Text lines -->
+    <path d="M34 50 H68" stroke-width="5.5"/>
+    <path d="M34 63 H68" stroke-width="5.5"/>
+    <path d="M34 76 H56" stroke-width="5.5"/>
+    <!-- Sound arcs (listen) -->
+    <path d="M86 48 A14 14 0 0 1 86 76"/>
+    <path d="M94 38 A26 26 0 0 1 94 86"/>
+    <path d="M102 28 A38 38 0 0 1 102 96"/>
+  </g>
+</svg>

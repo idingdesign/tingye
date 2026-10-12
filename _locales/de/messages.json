@@ -1,0 +1,299 @@
+{
+  "appName": {
+    "message": "Tingye"
+  },
+  "appDesc": {
+    "message": "Tingye · Verwandelt Webseiten in ausdrucksstarke Sprache. Haupttext oder Elemente extrahieren, übersetzen und mit neuronalen Stimmen vorlesen."
+  },
+  "playback": {
+    "message": "Wiedergabe"
+  },
+  "prev": {
+    "message": "Zurück"
+  },
+  "next": {
+    "message": "Weiter"
+  },
+  "play": {
+    "message": "Start"
+  },
+  "pause": {
+    "message": "Pause"
+  },
+  "resume": {
+    "message": "Fortsetzen"
+  },
+  "stop": {
+    "message": "Stopp"
+  },
+  "settings": {
+    "message": "Einstellungen"
+  },
+  "close": {
+    "message": "Schließen"
+  },
+  "closeSettings": {
+    "message": "Einstellungen schließen"
+  },
+  "area": {
+    "message": "Lesebereich"
+  },
+  "areaArticle": {
+    "message": "Haupttext"
+  },
+  "areaElements": {
+    "message": "Elemente"
+  },
+  "areaAll": {
+    "message": "Alles"
+  },
+  "mode": {
+    "message": "Lesemodus"
+  },
+  "modeOnce": {
+    "message": "Fortlaufend"
+  },
+  "modeLoop": {
+    "message": "Wiederholen"
+  },
+  "modeAuto": {
+    "message": "Automatisch"
+  },
+  "autoHint": {
+    "message": "Automatisch: sofort aktiv. Beim Tab-Wechsel oder Seitenaufruf wird automatisch extrahiert und vorgelesen (Seitenleiste geöffnet lassen)."
+  },
+  "targetLang": {
+    "message": "Zielsprache"
+  },
+  "engine": {
+    "message": "Sprach-Engine"
+  },
+  "engineEdge": {
+    "message": "Microsoft Neural-Stimmen"
+  },
+  "engineBrowser": {
+    "message": "Browser-Stimmen"
+  },
+  "voice": {
+    "message": "Stimme"
+  },
+  "rate": {
+    "message": "Tempo"
+  },
+  "extract": {
+    "message": "Seite extrahieren"
+  },
+  "openaiSettings": {
+    "message": "OpenAI-Einstellungen"
+  },
+  "previewIntro": {
+    "message": "Seite öffnen und auf Start tippen – Tingye liest vor."
+  },
+  "previewEmpty": {
+    "message": "Seite öffnen und Start oder Extrahieren wählen."
+  },
+  "readyCount": {
+    "message": "Bereit · $1 Abschnitte"
+  },
+  "pausedPos": {
+    "message": "Pausiert · $1 / $2"
+  },
+  "readingPos": {
+    "message": "Liest · $1 / $2"
+  },
+  "hintEdge": {
+    "message": "Microsoft-Edge-Neural-Stimmen: kostenlos und ausdrucksstark; bei Fehlern Browser-Stimmen."
+  },
+  "hintOpenaiKey": {
+    "message": "API-Schlüssel gespeichert, nutzt gpt-4o-mini-tts."
+  },
+  "hintOpenaiNoKey": {
+    "message": "Zuerst den API-Schlüssel unter „OpenAI-Einstellungen“ einfügen."
+  },
+  "hintBrowser": {
+    "message": "Bevorzugt Systemstimmen mit Neural / Google / Microsoft / Premium."
+  },
+  "voiceAuto": {
+    "message": "Sprache automatisch (Neural bevorzugt)"
+  },
+  "chunkOriginal": {
+    "message": "Klicken, um hier zu beginnen · Original"
+  },
+  "chunkTranslated": {
+    "message": "Klicken, um hier zu beginnen · übersetzt"
+  },
+  "noActiveTab": {
+    "message": "Kein aktiver Tab"
+  },
+  "extracting": {
+    "message": "Wird extrahiert…"
+  },
+  "extractFail": {
+    "message": "Extraktion fehlgeschlagen"
+  },
+  "extracted": {
+    "message": "$1 Abschnitte extrahiert"
+  },
+  "noContentArea": {
+    "message": "In diesem Bereich gibt es nichts vorzulesen"
+  },
+  "providerMicrosoft": {
+    "message": "Microsoft"
+  },
+  "providerSkip": {
+    "message": "übersprungen (bereits Zielsprache)"
+  },
+  "audioFail": {
+    "message": "Audiowiedergabe fehlgeschlagen"
+  },
+  "noOpenaiKey": {
+    "message": "OpenAI-API-Schlüssel fehlt"
+  },
+  "neuralFallback": {
+    "message": "Neural-Stimme fehlgeschlagen, Browser-Stimme…"
+  },
+  "translatingN": {
+    "message": "Übersetze $1/$2"
+  },
+  "readingN": {
+    "message": "Liest $1/$2"
+  },
+  "readError": {
+    "message": "Vorlesefehler: $1"
+  },
+  "readFail": {
+    "message": "Vorlesen fehlgeschlagen: $1"
+  },
+  "translateAllFail": {
+    "message": "Übersetzung fehlgeschlagen, Original vorgelesen"
+  },
+  "doneWithFallback": {
+    "message": "Fertig ($1 Abschnitte im Original)"
+  },
+  "done": {
+    "message": "Fertig"
+  },
+  "noContent": {
+    "message": "Nichts vorzulesen"
+  },
+  "paused": {
+    "message": "Pausiert"
+  },
+  "resumed": {
+    "message": "Fortgesetzt"
+  },
+  "stopped": {
+    "message": "Gestoppt"
+  },
+  "pageSwitched": {
+    "message": "Seite gewechselt, automatisches Vorlesen wird vorbereitet…"
+  },
+  "autoNoContent": {
+    "message": "Automatisch: auf der neuen Seite gibt es nichts vorzulesen"
+  },
+  "autoFail": {
+    "message": "Automatisches Vorlesen fehlgeschlagen: $1"
+  },
+  "autoOn": {
+    "message": "Automatisch aktiv: neue Seiten werden vorgelesen"
+  },
+  "readyOpen": {
+    "message": "Bereit: Seite öffnen und Start drücken"
+  },
+  "injectFail": {
+    "message": "Auf dieser Seite nicht möglich (z. B. chrome:// oder Web Store)"
+  },
+  "emptyText": {
+    "message": "Leerer Text"
+  },
+  "ttsTimeout": {
+    "message": "Edge TTS: Zeitüberschreitung"
+  },
+  "ttsNoAudio": {
+    "message": "Edge TTS: keine Audiodaten"
+  },
+  "ttsWsFail": {
+    "message": "Edge-TTS-Verbindung fehlgeschlagen (Browser-Stimmen versuchen)"
+  },
+  "ttsClosed": {
+    "message": "Edge TTS ohne Audio beendet"
+  },
+  "kLink": {
+    "message": "Link"
+  },
+  "kButton": {
+    "message": "Schaltfläche"
+  },
+  "kInput": {
+    "message": "Eingabe"
+  },
+  "kTextbox": {
+    "message": "Textfeld"
+  },
+  "kSelect": {
+    "message": "Auswahl"
+  },
+  "kDropdown": {
+    "message": "Dropdown"
+  },
+  "kOption": {
+    "message": "Option"
+  },
+  "kLabel": {
+    "message": "Beschriftung"
+  },
+  "kSummary": {
+    "message": "Zusammenfassung"
+  },
+  "kControl": {
+    "message": "Steuerelement"
+  },
+  "vWarm": {
+    "message": "warm"
+  },
+  "vSoft": {
+    "message": "sanft"
+  },
+  "vNeutral": {
+    "message": "neutral"
+  },
+  "vXiaoxiao": {
+    "message": "Xiaoxiao · sanft (empfohlen)"
+  },
+  "vYunxi": {
+    "message": "Yunxi · lebhaft, männlich"
+  },
+  "vYunyang": {
+    "message": "Yunyang · Nachrichtensprecher"
+  },
+  "vXiaoyi": {
+    "message": "Xiaoyi · klar, weiblich"
+  },
+  "vHsiaoChen": {
+    "message": "HsiaoChen · Taiwan-Mandarin"
+  },
+  "optTitle": {
+    "message": "Tingye · Einstellungen"
+  },
+  "optHeading": {
+    "message": "OpenAI TTS (optional)"
+  },
+  "optHint": {
+    "message": "Nur lokal in chrome.storage.local gespeichert, nie hochgeladen. Standardmodell gpt-4o-mini-tts. Leer lassen, um nur Microsoft- oder Browser-Stimmen zu nutzen."
+  },
+  "optVoice": {
+    "message": "Standardstimme"
+  },
+  "save": {
+    "message": "Speichern"
+  },
+  "clearKey": {
+    "message": "Schlüssel löschen"
+  },
+  "saved": {
+    "message": "Gespeichert"
+  },
+  "cleared": {
+    "message": "API-Schlüssel gelöscht"
+  }
+}

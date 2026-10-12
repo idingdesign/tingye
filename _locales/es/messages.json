@@ -1,0 +1,299 @@
+{
+  "appName": {
+    "message": "Tingye"
+  },
+  "appDesc": {
+    "message": "Tingye · Convierte cualquier página web en lectura expresiva. Extrae el texto o los elementos, tradúcelos y escúchalos con voces neuronales."
+  },
+  "playback": {
+    "message": "Reproducción"
+  },
+  "prev": {
+    "message": "Anterior"
+  },
+  "next": {
+    "message": "Siguiente"
+  },
+  "play": {
+    "message": "Reproducir"
+  },
+  "pause": {
+    "message": "Pausa"
+  },
+  "resume": {
+    "message": "Continuar"
+  },
+  "stop": {
+    "message": "Detener"
+  },
+  "settings": {
+    "message": "Ajustes"
+  },
+  "close": {
+    "message": "Cerrar"
+  },
+  "closeSettings": {
+    "message": "Cerrar ajustes"
+  },
+  "area": {
+    "message": "Área de lectura"
+  },
+  "areaArticle": {
+    "message": "Artículo"
+  },
+  "areaElements": {
+    "message": "Elementos"
+  },
+  "areaAll": {
+    "message": "Todo"
+  },
+  "mode": {
+    "message": "Modo de lectura"
+  },
+  "modeOnce": {
+    "message": "Continuo"
+  },
+  "modeLoop": {
+    "message": "Repetir"
+  },
+  "modeAuto": {
+    "message": "Automático"
+  },
+  "autoHint": {
+    "message": "Automático: se activa al instante. Al cambiar de pestaña o de página, se extrae y lee automáticamente (mantén el panel lateral abierto)."
+  },
+  "targetLang": {
+    "message": "Idioma de destino"
+  },
+  "engine": {
+    "message": "Motor de voz"
+  },
+  "engineEdge": {
+    "message": "Voces neuronales de Microsoft"
+  },
+  "engineBrowser": {
+    "message": "Voces del navegador"
+  },
+  "voice": {
+    "message": "Voz"
+  },
+  "rate": {
+    "message": "Velocidad"
+  },
+  "extract": {
+    "message": "Extraer página"
+  },
+  "openaiSettings": {
+    "message": "Ajustes de OpenAI"
+  },
+  "previewIntro": {
+    "message": "Abre una página y pulsa Reproducir."
+  },
+  "previewEmpty": {
+    "message": "Abre una página y pulsa Reproducir o Extraer."
+  },
+  "readyCount": {
+    "message": "Listo · $1 partes"
+  },
+  "pausedPos": {
+    "message": "En pausa · $1 / $2"
+  },
+  "readingPos": {
+    "message": "Leyendo · $1 / $2"
+  },
+  "hintEdge": {
+    "message": "Voces neuronales de Microsoft Edge: gratuitas y expresivas; si fallan, se usan las del navegador."
+  },
+  "hintOpenaiKey": {
+    "message": "Clave API guardada; se usa gpt-4o-mini-tts."
+  },
+  "hintOpenaiNoKey": {
+    "message": "Pega primero tu clave API en «Ajustes de OpenAI»."
+  },
+  "hintBrowser": {
+    "message": "Prefiere voces del sistema Neural / Google / Microsoft / Premium."
+  },
+  "voiceAuto": {
+    "message": "Idioma automático (Neural primero)"
+  },
+  "chunkOriginal": {
+    "message": "Clic para leer desde aquí · original"
+  },
+  "chunkTranslated": {
+    "message": "Clic para leer desde aquí · traducido"
+  },
+  "noActiveTab": {
+    "message": "No hay pestaña activa"
+  },
+  "extracting": {
+    "message": "Extrayendo…"
+  },
+  "extractFail": {
+    "message": "Error al extraer"
+  },
+  "extracted": {
+    "message": "$1 partes extraídas"
+  },
+  "noContentArea": {
+    "message": "No hay nada que leer en esta área"
+  },
+  "providerMicrosoft": {
+    "message": "Microsoft"
+  },
+  "providerSkip": {
+    "message": "omitido (ya en el idioma de destino)"
+  },
+  "audioFail": {
+    "message": "Error al reproducir audio"
+  },
+  "noOpenaiKey": {
+    "message": "Clave API de OpenAI no configurada"
+  },
+  "neuralFallback": {
+    "message": "Falló la voz neuronal, usando la del navegador…"
+  },
+  "translatingN": {
+    "message": "Traduciendo $1/$2"
+  },
+  "readingN": {
+    "message": "Leyendo $1/$2"
+  },
+  "readError": {
+    "message": "Error de lectura: $1"
+  },
+  "readFail": {
+    "message": "Falló la lectura: $1"
+  },
+  "translateAllFail": {
+    "message": "La traducción falló; se leyó el original"
+  },
+  "doneWithFallback": {
+    "message": "Terminado ($1 partes en original)"
+  },
+  "done": {
+    "message": "Lectura terminada"
+  },
+  "noContent": {
+    "message": "Nada que leer"
+  },
+  "paused": {
+    "message": "En pausa"
+  },
+  "resumed": {
+    "message": "Reanudado"
+  },
+  "stopped": {
+    "message": "Detenido"
+  },
+  "pageSwitched": {
+    "message": "Página cambiada, preparando lectura automática…"
+  },
+  "autoNoContent": {
+    "message": "Lectura automática: nada que leer en la nueva página"
+  },
+  "autoFail": {
+    "message": "Falló la lectura automática: $1"
+  },
+  "autoOn": {
+    "message": "Lectura automática activada: cada página nueva se leerá"
+  },
+  "readyOpen": {
+    "message": "Listo: abre una página y pulsa Reproducir"
+  },
+  "injectFail": {
+    "message": "No se puede ejecutar en esta página (chrome:// o la tienda)"
+  },
+  "emptyText": {
+    "message": "Texto vacío"
+  },
+  "ttsTimeout": {
+    "message": "Edge TTS: tiempo agotado"
+  },
+  "ttsNoAudio": {
+    "message": "Edge TTS: sin audio"
+  },
+  "ttsWsFail": {
+    "message": "Falló la conexión de Edge TTS (prueba las voces del navegador)"
+  },
+  "ttsClosed": {
+    "message": "Edge TTS se cerró sin audio"
+  },
+  "kLink": {
+    "message": "Enlace"
+  },
+  "kButton": {
+    "message": "Botón"
+  },
+  "kInput": {
+    "message": "Campo"
+  },
+  "kTextbox": {
+    "message": "Cuadro de texto"
+  },
+  "kSelect": {
+    "message": "Selección"
+  },
+  "kDropdown": {
+    "message": "Desplegable"
+  },
+  "kOption": {
+    "message": "Opción"
+  },
+  "kLabel": {
+    "message": "Etiqueta"
+  },
+  "kSummary": {
+    "message": "Resumen"
+  },
+  "kControl": {
+    "message": "Control"
+  },
+  "vWarm": {
+    "message": "cálida"
+  },
+  "vSoft": {
+    "message": "suave"
+  },
+  "vNeutral": {
+    "message": "neutra"
+  },
+  "vXiaoxiao": {
+    "message": "Xiaoxiao · suave (recomendada)"
+  },
+  "vYunxi": {
+    "message": "Yunxi · masculina animada"
+  },
+  "vYunyang": {
+    "message": "Yunyang · presentador"
+  },
+  "vXiaoyi": {
+    "message": "Xiaoyi · femenina clara"
+  },
+  "vHsiaoChen": {
+    "message": "HsiaoChen · mandarín de Taiwán"
+  },
+  "optTitle": {
+    "message": "Tingye · Ajustes"
+  },
+  "optHeading": {
+    "message": "OpenAI TTS (opcional)"
+  },
+  "optHint": {
+    "message": "Se guarda solo en chrome.storage.local, nunca se sube. Modelo predeterminado gpt-4o-mini-tts. Déjalo vacío para usar solo voces de Microsoft o del navegador."
+  },
+  "optVoice": {
+    "message": "Voz predeterminada"
+  },
+  "save": {
+    "message": "Guardar"
+  },
+  "clearKey": {
+    "message": "Borrar clave"
+  },
+  "saved": {
+    "message": "Guardado"
+  },
+  "cleared": {
+    "message": "Clave API borrada"
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "appName": {
+    "message": "Tingye"
+  },
+  "appDesc": {
+    "message": "Tingye · Turn any web page into expressive speech. Extract the article or elements, translate to your language, and listen with neural voices as it translates."
+  },
+  "playback": {
+    "message": "Playback"
+  },
+  "prev": {
+    "message": "Previous"
+  },
+  "next": {
+    "message": "Next"
+  },
+  "play": {
+    "message": "Play"
+  },
+  "pause": {
+    "message": "Pause"
+  },
+  "resume": {
+    "message": "Resume"
+  },
+  "stop": {
+    "message": "Stop"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "closeSettings": {
+    "message": "Close settings"
+  },
+  "area": {
+    "message": "Reading area"
+  },
+  "areaArticle": {
+    "message": "Article"
+  },
+  "areaElements": {
+    "message": "Elements"
+  },
+  "areaAll": {
+    "message": "Everything"
+  },
+  "mode": {
+    "message": "Reading mode"
+  },
+  "modeOnce": {
+    "message": "Continuous"
+  },
+  "modeLoop": {
+    "message": "Repeat"
+  },
+  "modeAuto": {
+    "message": "Auto"
+  },
+  "autoHint": {
+    "message": "Auto: takes effect immediately. When you switch tabs or navigate, the page is extracted and read automatically (keep the side panel open)."
+  },
+  "targetLang": {
+    "message": "Target language"
+  },
+  "engine": {
+    "message": "Voice engine"
+  },
+  "engineEdge": {
+    "message": "Microsoft neural voices"
+  },
+  "engineBrowser": {
+    "message": "Browser voices"
+  },
+  "voice": {
+    "message": "Voice"
+  },
+  "rate": {
+    "message": "Speed"
+  },
+  "extract": {
+    "message": "Extract this page"
+  },
+  "openaiSettings": {
+    "message": "OpenAI settings"
+  },
+  "previewIntro": {
+    "message": "Open a page and press Play — Tingye will read it to you."
+  },
+  "previewEmpty": {
+    "message": "Open a page and press Play or Extract."
+  },
+  "readyCount": {
+    "message": "Ready · $1 parts"
+  },
+  "pausedPos": {
+    "message": "Paused · $1 / $2"
+  },
+  "readingPos": {
+    "message": "Reading · $1 / $2"
+  },
+  "hintEdge": {
+    "message": "Microsoft Edge Read Aloud neural voices: free and expressive; falls back to browser voices on failure."
+  },
+  "hintOpenaiKey": {
+    "message": "API key saved, using gpt-4o-mini-tts."
+  },
+  "hintOpenaiNoKey": {
+    "message": "Paste your API key in “OpenAI settings” first."
+  },
+  "hintBrowser": {
+    "message": "Prefers system voices named Neural / Google / Microsoft / Premium."
+  },
+  "voiceAuto": {
+    "message": "Match language automatically (Neural first)"
+  },
+  "chunkOriginal": {
+    "message": "Click to read from here · original"
+  },
+  "chunkTranslated": {
+    "message": "Click to read from here · translated"
+  },
+  "noActiveTab": {
+    "message": "No active tab"
+  },
+  "extracting": {
+    "message": "Extracting…"
+  },
+  "extractFail": {
+    "message": "Extraction failed"
+  },
+  "extracted": {
+    "message": "Extracted $1 parts"
+  },
+  "noContentArea": {
+    "message": "Nothing to read in this area"
+  },
+  "providerMicrosoft": {
+    "message": "Microsoft"
+  },
+  "providerSkip": {
+    "message": "skipped (already target language)"
+  },
+  "audioFail": {
+    "message": "Audio playback failed"
+  },
+  "noOpenaiKey": {
+    "message": "OpenAI API key not set"
+  },
+  "neuralFallback": {
+    "message": "Neural voice failed, using browser voice…"
+  },
+  "translatingN": {
+    "message": "Translating $1/$2"
+  },
+  "readingN": {
+    "message": "Reading $1/$2"
+  },
+  "readError": {
+    "message": "Read error: $1"
+  },
+  "readFail": {
+    "message": "Reading failed: $1"
+  },
+  "translateAllFail": {
+    "message": "Translation failed, read the original"
+  },
+  "doneWithFallback": {
+    "message": "Done ($1 parts read in original)"
+  },
+  "done": {
+    "message": "Finished"
+  },
+  "noContent": {
+    "message": "Nothing to read"
+  },
+  "paused": {
+    "message": "Paused"
+  },
+  "resumed": {
+    "message": "Resumed"
+  },
+  "stopped": {
+    "message": "Stopped"
+  },
+  "pageSwitched": {
+    "message": "Page changed, preparing auto-read…"
+  },
+  "autoNoContent": {
+    "message": "Auto-read: nothing to read on the new page"
+  },
+  "autoFail": {
+    "message": "Auto-read failed: $1"
+  },
+  "autoOn": {
+    "message": "Auto-read on: pages are extracted and read when you switch"
+  },
+  "readyOpen": {
+    "message": "Ready: open a page and press Play"
+  },
+  "injectFail": {
+    "message": "Can't run on this page (e.g. chrome:// or the Web Store)"
+  },
+  "emptyText": {
+    "message": "Empty text"
+  },
+  "ttsTimeout": {
+    "message": "Edge TTS timed out"
+  },
+  "ttsNoAudio": {
+    "message": "Edge TTS returned no audio"
+  },
+  "ttsWsFail": {
+    "message": "Edge TTS connection failed (try browser voices)"
+  },
+  "ttsClosed": {
+    "message": "Edge TTS closed without audio"
+  },
+  "kLink": {
+    "message": "Link"
+  },
+  "kButton": {
+    "message": "Button"
+  },
+  "kInput": {
+    "message": "Input"
+  },
+  "kTextbox": {
+    "message": "Text box"
+  },
+  "kSelect": {
+    "message": "Select"
+  },
+  "kDropdown": {
+    "message": "Dropdown"
+  },
+  "kOption": {
+    "message": "Option"
+  },
+  "kLabel": {
+    "message": "Label"
+  },
+  "kSummary": {
+    "message": "Summary"
+  },
+  "kControl": {
+    "message": "Control"
+  },
+  "vWarm": {
+    "message": "warm"
+  },
+  "vSoft": {
+    "message": "soft"
+  },
+  "vNeutral": {
+    "message": "neutral"
+  },
+  "vXiaoxiao": {
+    "message": "Xiaoxiao · gentle (recommended)"
+  },
+  "vYunxi": {
+    "message": "Yunxi · lively male"
+  },
+  "vYunyang": {
+    "message": "Yunyang · newsreader"
+  },
+  "vXiaoyi": {
+    "message": "Xiaoyi · clear female"
+  },
+  "vHsiaoChen": {
+    "message": "HsiaoChen · Taiwanese Mandarin"
+  },
+  "optTitle": {
+    "message": "Tingye · Settings"
+  },
+  "optHeading": {
+    "message": "OpenAI TTS (optional)"
+  },
+  "optHint": {
+    "message": "Stored only in local chrome.storage.local, never uploaded. Default model gpt-4o-mini-tts. Leave empty to use Microsoft neural or browser voices only."
+  },
+  "optVoice": {
+    "message": "Default voice"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "clearKey": {
+    "message": "Clear key"
+  },
+  "saved": {
+    "message": "Saved"
+  },
+  "cleared": {
+    "message": "API key cleared"
+  }
+}

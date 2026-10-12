@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title data-i18n="optTitle">Tingye</title>
+  <style>
+    body {
+      font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif;
+      margin: 0;
+      padding: 16px;
+      color: #2A2A2A;
+      background: #FAFAF9;
+      min-width: 320px;
+    }
+    h1 { font-size: 0.95rem; font-weight: 600; margin: 0 0 12px; }
+    label { display: block; font-size: 0.8rem; color: #8A8A8A; margin-bottom: 6px; }
+    input, select {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px 12px;
+      border: 1px solid #ECECEC;
+      border-radius: 10px;
+      font: inherit;
+      background: #FFFFFF;
+      color: #2A2A2A;
+    }
+    .hint { font-size: 0.75rem; color: #A8A8A8; margin-top: 6px; line-height: 1.4; }
+    .row { display: flex; gap: 8px; margin-top: 12px; }
+    button {
+      border: 1px solid #ECECEC;
+      background: #FFFFFF;
+      border-radius: 10px;
+      padding: 9px 14px;
+      font: inherit;
+      color: #2A2A2A;
+      cursor: pointer;
+    }
+    button.primary {
+      background: rgba(111, 143, 130, 0.14);
+      border-color: transparent;
+      color: #6F8F82;
+      font-weight: 600;
+    }
+    #status { margin-top: 10px; font-size: 0.8rem; color: #6F8F82; min-height: 1.2em; }
+  </style>
+</head>
+<body>
+  <h1 data-i18n="optHeading"></h1>
+  <label for="openaiKey">API Key</label>
+  <input id="openaiKey" type="password" placeholder="sk-..." autocomplete="off" />
+  <p class="hint" data-i18n="optHint"></p>
+  <label for="openaiVoice" style="margin-top:12px" data-i18n="optVoice"></label>
+  <select id="openaiVoice">
+    <option value="nova">nova</option>
+    <option value="coral">coral</option>
+    <option value="alloy">alloy</option>
+    <option value="echo">echo</option>
+    <option value="fable">fable</option>
+    <option value="onyx">onyx</option>
+    <option value="shimmer">shimmer</option>
+  </select>
+  <div class="row">
+    <button class="primary" id="save" type="button" data-i18n="save"></button>
+    <button id="clear" type="button" data-i18n="clearKey"></button>
+  </div>
+  <p id="status"></p>
+  <script src="lib/i18n.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

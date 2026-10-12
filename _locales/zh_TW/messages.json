@@ -1,0 +1,299 @@
+{
+  "appName": {
+    "message": "聽頁"
+  },
+  "appDesc": {
+    "message": "聽頁 · 把目前網頁變成有感情的朗讀。擷取正文或元素，譯成目標語言，神經語音邊譯邊讀。"
+  },
+  "playback": {
+    "message": "播放控制"
+  },
+  "prev": {
+    "message": "上一段"
+  },
+  "next": {
+    "message": "下一段"
+  },
+  "play": {
+    "message": "開始"
+  },
+  "pause": {
+    "message": "暫停"
+  },
+  "resume": {
+    "message": "繼續"
+  },
+  "stop": {
+    "message": "停止"
+  },
+  "settings": {
+    "message": "設定"
+  },
+  "close": {
+    "message": "關閉"
+  },
+  "closeSettings": {
+    "message": "關閉設定"
+  },
+  "area": {
+    "message": "閱讀區域"
+  },
+  "areaArticle": {
+    "message": "僅讀正文"
+  },
+  "areaElements": {
+    "message": "僅讀元素"
+  },
+  "areaAll": {
+    "message": "全部閱讀"
+  },
+  "mode": {
+    "message": "閱讀方式"
+  },
+  "modeOnce": {
+    "message": "連續閱讀"
+  },
+  "modeLoop": {
+    "message": "重複閱讀"
+  },
+  "modeAuto": {
+    "message": "自動閱讀"
+  },
+  "autoHint": {
+    "message": "自動：選取後即生效。切換到其他分頁、或同分頁跳轉後，會自動擷取並朗讀（側欄需保持開啟）。"
+  },
+  "targetLang": {
+    "message": "目標語言"
+  },
+  "engine": {
+    "message": "語音引擎"
+  },
+  "engineEdge": {
+    "message": "Microsoft 神經語音"
+  },
+  "engineBrowser": {
+    "message": "瀏覽器語音"
+  },
+  "voice": {
+    "message": "音色"
+  },
+  "rate": {
+    "message": "語速"
+  },
+  "extract": {
+    "message": "擷取目前頁面"
+  },
+  "openaiSettings": {
+    "message": "OpenAI 設定"
+  },
+  "previewIntro": {
+    "message": "開啟網頁後點「開始」，聽頁會幫你朗讀。"
+  },
+  "previewEmpty": {
+    "message": "開啟網頁後點「開始」或「擷取」。"
+  },
+  "readyCount": {
+    "message": "就緒 · $1 段"
+  },
+  "pausedPos": {
+    "message": "已暫停 · $1 / $2"
+  },
+  "readingPos": {
+    "message": "朗讀中 · $1 / $2"
+  },
+  "hintEdge": {
+    "message": "Microsoft Edge 朗讀神經語音，免費、有感情；失敗會回退瀏覽器語音。"
+  },
+  "hintOpenaiKey": {
+    "message": "已儲存 API Key，使用 gpt-4o-mini-tts。"
+  },
+  "hintOpenaiNoKey": {
+    "message": "請先在「OpenAI 設定」貼上 API Key。"
+  },
+  "hintBrowser": {
+    "message": "優先選用名稱含 Neural / Google / Microsoft / Premium 的系統語音。"
+  },
+  "voiceAuto": {
+    "message": "自動匹配語言（優先 Neural）"
+  },
+  "chunkOriginal": {
+    "message": "點擊從此段朗讀 · 原文"
+  },
+  "chunkTranslated": {
+    "message": "點擊從此段朗讀 · 已翻譯"
+  },
+  "noActiveTab": {
+    "message": "沒有作用中的分頁"
+  },
+  "extracting": {
+    "message": "正在擷取…"
+  },
+  "extractFail": {
+    "message": "擷取失敗"
+  },
+  "extracted": {
+    "message": "已擷取 $1 段"
+  },
+  "noContentArea": {
+    "message": "目前區域沒有可朗讀內容"
+  },
+  "providerMicrosoft": {
+    "message": "微軟"
+  },
+  "providerSkip": {
+    "message": "略過（已是目標語言）"
+  },
+  "audioFail": {
+    "message": "音訊播放失敗"
+  },
+  "noOpenaiKey": {
+    "message": "未設定 OpenAI API Key"
+  },
+  "neuralFallback": {
+    "message": "神經語音失敗，改用瀏覽器語音…"
+  },
+  "translatingN": {
+    "message": "翻譯中 $1/$2"
+  },
+  "readingN": {
+    "message": "朗讀中 $1/$2"
+  },
+  "readError": {
+    "message": "朗讀出錯：$1"
+  },
+  "readFail": {
+    "message": "朗讀失敗：$1"
+  },
+  "translateAllFail": {
+    "message": "翻譯全部失敗，已朗讀原文"
+  },
+  "doneWithFallback": {
+    "message": "朗讀完成（$1 段回退原文）"
+  },
+  "done": {
+    "message": "朗讀完成"
+  },
+  "noContent": {
+    "message": "沒有可朗讀內容"
+  },
+  "paused": {
+    "message": "已暫停"
+  },
+  "resumed": {
+    "message": "繼續朗讀"
+  },
+  "stopped": {
+    "message": "已停止"
+  },
+  "pageSwitched": {
+    "message": "頁面已切換，準備自動閱讀…"
+  },
+  "autoNoContent": {
+    "message": "自動閱讀：新頁面沒有可朗讀內容"
+  },
+  "autoFail": {
+    "message": "自動閱讀失敗：$1"
+  },
+  "autoOn": {
+    "message": "自動閱讀已開啟：切換頁面後會自動擷取並朗讀"
+  },
+  "readyOpen": {
+    "message": "就緒：開啟網頁後點開始"
+  },
+  "injectFail": {
+    "message": "無法在此頁面注入腳本（如 chrome:// 或商店頁）"
+  },
+  "emptyText": {
+    "message": "空白文字"
+  },
+  "ttsTimeout": {
+    "message": "Edge TTS 逾時"
+  },
+  "ttsNoAudio": {
+    "message": "Edge TTS 無音訊資料"
+  },
+  "ttsWsFail": {
+    "message": "Edge TTS WebSocket 連線失敗（可改用瀏覽器語音）"
+  },
+  "ttsClosed": {
+    "message": "Edge TTS 連線已關閉且無音訊"
+  },
+  "kLink": {
+    "message": "連結"
+  },
+  "kButton": {
+    "message": "按鈕"
+  },
+  "kInput": {
+    "message": "輸入"
+  },
+  "kTextbox": {
+    "message": "文字方塊"
+  },
+  "kSelect": {
+    "message": "選擇"
+  },
+  "kDropdown": {
+    "message": "下拉"
+  },
+  "kOption": {
+    "message": "選項"
+  },
+  "kLabel": {
+    "message": "標籤"
+  },
+  "kSummary": {
+    "message": "摘要"
+  },
+  "kControl": {
+    "message": "控制項"
+  },
+  "vWarm": {
+    "message": "溫暖"
+  },
+  "vSoft": {
+    "message": "柔和"
+  },
+  "vNeutral": {
+    "message": "中性"
+  },
+  "vXiaoxiao": {
+    "message": "曉曉 · 溫柔（推薦）"
+  },
+  "vYunxi": {
+    "message": "雲希 · 活潑男聲"
+  },
+  "vYunyang": {
+    "message": "雲揚 · 新聞感"
+  },
+  "vXiaoyi": {
+    "message": "曉伊 · 清晰女聲"
+  },
+  "vHsiaoChen": {
+    "message": "曉臻 · 臺灣"
+  },
+  "optTitle": {
+    "message": "聽頁 · 設定"
+  },
+  "optHeading": {
+    "message": "OpenAI TTS（選用）"
+  },
+  "optHint": {
+    "message": "僅儲存在本機 chrome.storage.local，不會上傳到任何伺服器。模型預設 gpt-4o-mini-tts。不填則只用 Microsoft 神經語音或瀏覽器語音。"
+  },
+  "optVoice": {
+    "message": "預設音色"
+  },
+  "save": {
+    "message": "儲存"
+  },
+  "clearKey": {
+    "message": "清除 Key"
+  },
+  "saved": {
+    "message": "已儲存"
+  },
+  "cleared": {
+    "message": "已清除 API Key"
+  }
+}

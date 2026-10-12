@@ -1,0 +1,299 @@
+{
+  "appName": {
+    "message": "Tingye"
+  },
+  "appDesc": {
+    "message": "Tingye · Webページを感情豊かに読み上げ。本文や要素を抽出し、目的の言語に翻訳しながらニューラル音声で再生します。"
+  },
+  "playback": {
+    "message": "再生操作"
+  },
+  "prev": {
+    "message": "前へ"
+  },
+  "next": {
+    "message": "次へ"
+  },
+  "play": {
+    "message": "再生"
+  },
+  "pause": {
+    "message": "一時停止"
+  },
+  "resume": {
+    "message": "再開"
+  },
+  "stop": {
+    "message": "停止"
+  },
+  "settings": {
+    "message": "設定"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "closeSettings": {
+    "message": "設定を閉じる"
+  },
+  "area": {
+    "message": "読み上げ範囲"
+  },
+  "areaArticle": {
+    "message": "本文のみ"
+  },
+  "areaElements": {
+    "message": "要素のみ"
+  },
+  "areaAll": {
+    "message": "すべて"
+  },
+  "mode": {
+    "message": "読み上げ方式"
+  },
+  "modeOnce": {
+    "message": "連続"
+  },
+  "modeLoop": {
+    "message": "リピート"
+  },
+  "modeAuto": {
+    "message": "自動"
+  },
+  "autoHint": {
+    "message": "自動：選択するとすぐ有効。タブ切り替えやページ遷移時に自動で抽出して読み上げます（サイドパネルは開いたまま）。"
+  },
+  "targetLang": {
+    "message": "翻訳先の言語"
+  },
+  "engine": {
+    "message": "音声エンジン"
+  },
+  "engineEdge": {
+    "message": "Microsoft ニューラル音声"
+  },
+  "engineBrowser": {
+    "message": "ブラウザ音声"
+  },
+  "voice": {
+    "message": "声"
+  },
+  "rate": {
+    "message": "速度"
+  },
+  "extract": {
+    "message": "このページを抽出"
+  },
+  "openaiSettings": {
+    "message": "OpenAI 設定"
+  },
+  "previewIntro": {
+    "message": "ページを開いて「再生」を押すと読み上げます。"
+  },
+  "previewEmpty": {
+    "message": "ページを開いて「再生」か「抽出」を押してください。"
+  },
+  "readyCount": {
+    "message": "準備完了 · $1 段落"
+  },
+  "pausedPos": {
+    "message": "一時停止 · $1 / $2"
+  },
+  "readingPos": {
+    "message": "読み上げ中 · $1 / $2"
+  },
+  "hintEdge": {
+    "message": "Microsoft Edge 音声読み上げのニューラル音声。無料で表現豊か。失敗時はブラウザ音声に切り替えます。"
+  },
+  "hintOpenaiKey": {
+    "message": "API キー保存済み。gpt-4o-mini-tts を使用します。"
+  },
+  "hintOpenaiNoKey": {
+    "message": "先に「OpenAI 設定」で API キーを入力してください。"
+  },
+  "hintBrowser": {
+    "message": "名前に Neural / Google / Microsoft / Premium を含む音声を優先します。"
+  },
+  "voiceAuto": {
+    "message": "言語に自動一致（Neural 優先）"
+  },
+  "chunkOriginal": {
+    "message": "クリックでここから読み上げ · 原文"
+  },
+  "chunkTranslated": {
+    "message": "クリックでここから読み上げ · 翻訳済み"
+  },
+  "noActiveTab": {
+    "message": "アクティブなタブがありません"
+  },
+  "extracting": {
+    "message": "抽出中…"
+  },
+  "extractFail": {
+    "message": "抽出に失敗しました"
+  },
+  "extracted": {
+    "message": "$1 段落を抽出しました"
+  },
+  "noContentArea": {
+    "message": "この範囲に読み上げる内容がありません"
+  },
+  "providerMicrosoft": {
+    "message": "Microsoft"
+  },
+  "providerSkip": {
+    "message": "スキップ（翻訳先の言語）"
+  },
+  "audioFail": {
+    "message": "音声の再生に失敗しました"
+  },
+  "noOpenaiKey": {
+    "message": "OpenAI API キーが未設定です"
+  },
+  "neuralFallback": {
+    "message": "ニューラル音声に失敗。ブラウザ音声に切り替えます…"
+  },
+  "translatingN": {
+    "message": "翻訳中 $1/$2"
+  },
+  "readingN": {
+    "message": "読み上げ中 $1/$2"
+  },
+  "readError": {
+    "message": "読み上げエラー：$1"
+  },
+  "readFail": {
+    "message": "読み上げ失敗：$1"
+  },
+  "translateAllFail": {
+    "message": "翻訳にすべて失敗したため原文を読み上げました"
+  },
+  "doneWithFallback": {
+    "message": "読み上げ完了（$1 段落は原文）"
+  },
+  "done": {
+    "message": "読み上げ完了"
+  },
+  "noContent": {
+    "message": "読み上げる内容がありません"
+  },
+  "paused": {
+    "message": "一時停止中"
+  },
+  "resumed": {
+    "message": "再開しました"
+  },
+  "stopped": {
+    "message": "停止しました"
+  },
+  "pageSwitched": {
+    "message": "ページが切り替わりました。自動読み上げ準備中…"
+  },
+  "autoNoContent": {
+    "message": "自動読み上げ：新しいページに内容がありません"
+  },
+  "autoFail": {
+    "message": "自動読み上げ失敗：$1"
+  },
+  "autoOn": {
+    "message": "自動読み上げ有効：ページ切り替え時に自動で読み上げます"
+  },
+  "readyOpen": {
+    "message": "準備完了：ページを開いて再生"
+  },
+  "injectFail": {
+    "message": "このページでは動作できません（chrome:// やストアなど）"
+  },
+  "emptyText": {
+    "message": "空のテキスト"
+  },
+  "ttsTimeout": {
+    "message": "Edge TTS タイムアウト"
+  },
+  "ttsNoAudio": {
+    "message": "Edge TTS 音声データなし"
+  },
+  "ttsWsFail": {
+    "message": "Edge TTS 接続失敗（ブラウザ音声をお試しください）"
+  },
+  "ttsClosed": {
+    "message": "Edge TTS 接続が音声なしで終了しました"
+  },
+  "kLink": {
+    "message": "リンク"
+  },
+  "kButton": {
+    "message": "ボタン"
+  },
+  "kInput": {
+    "message": "入力"
+  },
+  "kTextbox": {
+    "message": "テキスト欄"
+  },
+  "kSelect": {
+    "message": "選択"
+  },
+  "kDropdown": {
+    "message": "ドロップダウン"
+  },
+  "kOption": {
+    "message": "オプション"
+  },
+  "kLabel": {
+    "message": "ラベル"
+  },
+  "kSummary": {
+    "message": "概要"
+  },
+  "kControl": {
+    "message": "コントロール"
+  },
+  "vWarm": {
+    "message": "温かい"
+  },
+  "vSoft": {
+    "message": "やわらか"
+  },
+  "vNeutral": {
+    "message": "ニュートラル"
+  },
+  "vXiaoxiao": {
+    "message": "Xiaoxiao · やさしい（おすすめ）"
+  },
+  "vYunxi": {
+    "message": "Yunxi · 明るい男性"
+  },
+  "vYunyang": {
+    "message": "Yunyang · ニュース調"
+  },
+  "vXiaoyi": {
+    "message": "Xiaoyi · はっきり女性"
+  },
+  "vHsiaoChen": {
+    "message": "HsiaoChen · 台湾華語"
+  },
+  "optTitle": {
+    "message": "Tingye · 設定"
+  },
+  "optHeading": {
+    "message": "OpenAI TTS（任意）"
+  },
+  "optHint": {
+    "message": "ローカルの chrome.storage.local にのみ保存され、送信されません。既定モデルは gpt-4o-mini-tts。空欄なら Microsoft ニューラル音声かブラウザ音声のみ使用します。"
+  },
+  "optVoice": {
+    "message": "既定の声"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "clearKey": {
+    "message": "キーを削除"
+  },
+  "saved": {
+    "message": "保存しました"
+  },
+  "cleared": {
+    "message": "API キーを削除しました"
+  }
+}
