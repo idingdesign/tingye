@@ -1,32 +1,96 @@
 <!DOCTYPE html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>听页 Tingye · Privacy Policy</title>
-<style>body{font:16px/1.6 system-ui,sans-serif;max-width:40rem;margin:2rem auto;padding:0 1rem;color:#2a2a2a}h1,h2{font-weight:600}a{color:#6F8F82}</style>
-</head><body><p><h1>听页 · 隐私政策  </h1>
-<h1>Tingye Privacy Policy</h1></p><p>**生效日期 / Effective date:** 2026-10-12  
-**产品 / Product:** 听页（Tingye）Chrome 扩展  
-**运营方 / Operator:** IDING DESIGN（[iding.net](https://iding.net)）  
-**联系 / Contact:** 通过 [iding.net](https://iding.net) 网站公示渠道联系</p><p>本文说明扩展如何处理数据。使用本扩展即表示你理解下列做法。  
-This policy describes how the extension handles data. By using Tingye you acknowledge the practices below.</p><p>---</p><p><h2>1. 我们收集什么？ / What we collect</h2></p><p>**听页扩展本身不收集、不上传、不出售个人身份信息。**  
-我们不运营用于分析用户行为的后台、不记录你的浏览历史，也不要求账号登录。</p><p>**Tingye does not collect, upload, or sell personally identifiable information.**  
-There is no analytics backend for browsing history, and no account sign-in is required.</p><p>本地仅保存你主动配置的设置（阅读区域、方式、目标语言、语音引擎、语速等），使用 Chrome 的 `chrome.storage.local`，数据留在你的设备上。</p><p>Settings you choose are stored locally via `chrome.storage.local` on your device only.</p><p>---</p><p><h2>2. 可选 OpenAI API Key</h2></p><p>若你启用 **OpenAI TTS**，可在扩展选项中粘贴自己的 API Key。该 Key：</p><p>- 仅保存在本机 `chrome.storage.local`
-- 仅用于向 `https://api.openai.com/` 发起你触发的语音合成请求
-- **不会**发送到 iding.net 或其它非 OpenAI 服务器</p><p>If you enable OpenAI TTS, your API key is stored only on-device and used solely for OpenAI TTS requests you initiate. It is never sent to iding.net.</p><p>---</p><p><h2>3. 朗读与翻译时发送的内容 / Data sent when you use translate or TTS</h2></p><p>当你点击开始朗读（或自动阅读触发）时，扩展会从**当前标签页**提取可见文本（按你选择的「仅正文 / 仅元素 / 全部」），并可能将**文本片段**发送至下列第三方，以便完成翻译或语音合成：</p><p>| 服务 | 用途 | 典型端点 |
-| --- | --- | --- |
-| Microsoft Translator / Edge | 翻译 | `api-edge.cognitive.microsofttranslator.com`、`edge.microsoft.com` |
-| Google Translate（gtx） | 翻译兜底 | `translate.googleapis.com` |
-| MyMemory | 翻译兜底 | `api.mymemory.translated.net` |
-| Microsoft / Bing Speech | 神经 TTS | `speech.platform.bing.com`（含 WebSocket） |
-| OpenAI（可选） | TTS | `api.openai.com` |</p><p>这些请求由你的浏览器直接发出。第三方如何处理数据以其各自隐私政策为准。请勿对高度敏感或受法规限制的内容使用云端翻译/TTS。</p><p>Page text chunks are sent only when you use those features. Third-party processing is governed by their own policies. Do not send highly sensitive content through cloud translate/TTS.</p><p>浏览器内置 `speechSynthesis` 路径通常在本地或系统语音服务完成，不经过上述云端 TTS（仍可能使用云端翻译，取决于你是否开启翻译）。</p><p>---</p><p><h2>4. 主机与脚本权限说明 / Host &amp; scripting permissions</h2></p><p>| 权限 | 原因 |
-| --- | --- |
-| `http://*/*`、`https://*/*` | 在普通网页注入内容脚本，提取文本并同步高亮当前朗读段落 |
-| 翻译 / TTS 相关主机权限 | 仅用于上表所列服务，不用于广告或追踪 |
-| `storage` | 保存设置与可选 API Key |
-| `tabs` / `activeTab` / `scripting` / `webNavigation` | 读写当前页、自动阅读时感知导航 |
-| `sidePanel` | 显示侧栏 UI |
-| `declarativeNetRequest` | 调用 Microsoft 语音时修正 Origin / User-Agent（与常见 edge-tts 做法一致） |</p><p>扩展无法在 `chrome://`、Chrome 网上应用店页面、部分 PDF 查看器等受限页面注入脚本。</p><p>---</p><p><h2>5. 我们不做什么 / What we do not do</h2></p><p>- 不出售用户数据  
-- 不将页面全文批量上传到 iding.net  
-- 不在未使用朗读/翻译功能时向翻译或 TTS 服务商发送页面内容  
-- 不将 OpenAI Key 同步到云端（本扩展不提供云同步）</p><p>---</p><p><h2>6. 儿童 / Children</h2></p><p>本产品面向一般网页辅助阅读，不专门面向儿童收集数据。</p><p>---</p><p><h2>7. 政策更新 / Changes</h2></p><p>政策更新时，我们会在本页修订生效日期。重大变更建议通过 iding.net 或扩展商店说明另行提示。</p><p>---</p><p><h2>8. 托管建议 / Hosting this page</h2></p><p>可将本文件托管于：</p><p>- `https://iding.net/tingye/privacy`（或站点等价路径）  
-- 或 GitHub Pages / 本仓库 `privacy-policy.md`</p><p>Chrome 网上应用店「隐私权政策」字段请填写可公开访问的 HTTPS URL。</p><p>---</p><p>© IDING DESIGN · iding.net
-</p></body></html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>听页 Tingye · 隐私政策 Privacy Policy</title>
+<style>
+body{font:16px/1.65 system-ui,-apple-system,sans-serif;max-width:40rem;margin:2rem auto;padding:0 1.25rem 3rem;color:#2a2a2a;background:#fafafa}
+h1{font-size:1.35rem;font-weight:600;margin:0 0 .35rem}
+h2{font-size:1.05rem;font-weight:600;margin:1.75rem 0 .6rem}
+p,li{margin:.45rem 0}
+ul{padding-left:1.2rem}
+a{color:#6F8F82}
+.meta{color:#666;font-size:.92rem;margin:0 0 1.25rem}
+.sub{font-size:1rem;font-weight:500;color:#555;margin:0 0 1rem}
+hr{border:none;border-top:1px solid #e6e6e6;margin:1.5rem 0}
+table{width:100%;border-collapse:collapse;font-size:.9rem;margin:.75rem 0 1rem}
+th,td{border:1px solid #e0e0e0;padding:.45rem .55rem;text-align:left;vertical-align:top}
+th{background:#f0f0f0;font-weight:600}
+.foot{margin-top:2rem;color:#888;font-size:.85rem}
+</style>
+</head>
+<body>
+<h1>听页 · 隐私政策</h1>
+<p class="sub">Tingye Privacy Policy</p>
+<p class="meta">生效日期 / Effective date: 2026-10-12<br>
+产品 / Product: 听页（Tingye）Chrome 扩展<br>
+运营方 / Operator: IDING DESIGN（<a href="https://iding.net">iding.net</a>）<br>
+联系 / Contact: 通过 <a href="https://iding.net">iding.net</a> 网站公示渠道联系</p>
+<p>本文说明扩展如何处理数据。使用本扩展即表示你理解下列做法。<br>
+This policy describes how the extension handles data. By using Tingye you acknowledge the practices below.</p>
+<hr>
+<h2>1. 我们收集什么？ / What we collect</h2>
+<p><strong>听页扩展本身不收集、不上传、不出售个人身份信息。</strong><br>
+我们不运营用于分析用户行为的后台、不记录你的浏览历史，也不要求账号登录。</p>
+<p><strong>Tingye does not collect, upload, or sell personally identifiable information.</strong><br>
+There is no analytics backend for browsing history, and no account sign-in is required.</p>
+<p>本地仅保存你主动配置的设置（阅读区域、方式、目标语言、语音引擎、语速等），使用 Chrome 的 <code>chrome.storage.local</code>，数据留在你的设备上。</p>
+<p>Settings you choose are stored locally via <code>chrome.storage.local</code> on your device only.</p>
+<hr>
+<h2>2. 可选 OpenAI API Key</h2>
+<p>若你启用 <strong>OpenAI TTS</strong>，可在扩展选项中粘贴自己的 API Key。该 Key：</p>
+<ul>
+<li>仅保存在本机 <code>chrome.storage.local</code></li>
+<li>仅用于向 <code>https://api.openai.com/</code> 发起你触发的语音合成请求</li>
+<li><strong>不会</strong>发送到 iding.net 或其它非 OpenAI 服务器</li>
+</ul>
+<p>If you enable OpenAI TTS, your API key is stored only on-device and used solely for OpenAI TTS requests you initiate. It is never sent to iding.net.</p>
+<hr>
+<h2>3. 朗读与翻译时发送的内容 / Data sent when you use translate or TTS</h2>
+<p>当你点击开始朗读（或自动阅读触发）时，扩展会从<strong>当前标签页</strong>提取可见文本（按你选择的「仅正文 / 仅元素 / 全部」），并可能将<strong>文本片段</strong>发送至下列第三方，以便完成翻译或语音合成：</p>
+<table>
+<thead><tr><th>服务</th><th>用途</th><th>典型端点</th></tr></thead>
+<tbody>
+<tr><td>Microsoft Translator / Edge</td><td>翻译</td><td><code>api-edge.cognitive.microsofttranslator.com</code>、<code>edge.microsoft.com</code></td></tr>
+<tr><td>Google Translate（gtx）</td><td>翻译兜底</td><td><code>translate.googleapis.com</code></td></tr>
+<tr><td>MyMemory</td><td>翻译兜底</td><td><code>api.mymemory.translated.net</code></td></tr>
+<tr><td>Microsoft / Bing Speech</td><td>神经 TTS</td><td><code>speech.platform.bing.com</code>（含 WebSocket）</td></tr>
+<tr><td>OpenAI（可选）</td><td>TTS</td><td><code>api.openai.com</code></td></tr>
+</tbody>
+</table>
+<p>这些请求由你的浏览器直接发出。第三方如何处理数据以其各自隐私政策为准。请勿对高度敏感或受法规限制的内容使用云端翻译/TTS。</p>
+<p>Page text chunks are sent only when you use those features. Third-party processing is governed by their own policies. Do not send highly sensitive content through cloud translate/TTS.</p>
+<p>浏览器内置 <code>speechSynthesis</code> 路径通常在本地或系统语音服务完成，不经过上述云端 TTS（仍可能使用云端翻译，取决于你是否开启翻译）。</p>
+<hr>
+<h2>4. 主机与脚本权限说明 / Host &amp; scripting permissions</h2>
+<table>
+<thead><tr><th>权限</th><th>原因</th></tr></thead>
+<tbody>
+<tr><td><code>http://*/*</code>、<code>https://*/*</code></td><td>在普通网页注入内容脚本，提取文本并同步高亮当前朗读段落</td></tr>
+<tr><td>翻译 / TTS 相关主机权限</td><td>仅用于上表所列服务，不用于广告或追踪</td></tr>
+<tr><td><code>storage</code></td><td>保存设置与可选 API Key</td></tr>
+<tr><td><code>tabs</code> / <code>activeTab</code> / <code>scripting</code> / <code>webNavigation</code></td><td>读写当前页、自动阅读时感知导航</td></tr>
+<tr><td><code>sidePanel</code></td><td>显示侧栏 UI</td></tr>
+<tr><td><code>declarativeNetRequest</code></td><td>调用 Microsoft 语音时修正 Origin / User-Agent（与常见 edge-tts 做法一致）</td></tr>
+</tbody>
+</table>
+<p>扩展无法在 <code>chrome://</code>、Chrome 网上应用店页面、部分 PDF 查看器等受限页面注入脚本。</p>
+<hr>
+<h2>5. 我们不做什么 / What we do not do</h2>
+<ul>
+<li>不出售用户数据</li>
+<li>不将页面全文批量上传到 iding.net</li>
+<li>不在未使用朗读/翻译功能时向翻译或 TTS 服务商发送页面内容</li>
+<li>不将 OpenAI Key 同步到云端（本扩展不提供云同步）</li>
+</ul>
+<hr>
+<h2>6. 儿童 / Children</h2>
+<p>本产品面向一般网页辅助阅读，不专门面向儿童收集数据。</p>
+<hr>
+<h2>7. 政策更新 / Changes</h2>
+<p>政策更新时，我们会在本页修订生效日期。重大变更建议通过 iding.net 或扩展商店说明另行提示。</p>
+<hr>
+<p class="foot">© IDING DESIGN · <a href="https://iding.net">iding.net</a></p>
+</body>
+</html>
