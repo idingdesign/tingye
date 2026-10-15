@@ -8,7 +8,12 @@
 **作者 / Author:** [IDING DESIGN](https://iding.net) · `iding.net`  
 **版本 / Version:** 1.5.0 · **许可 / License:** [MIT](./LICENSE)
 
-Chrome 网上应用店（即将上线）: _[Chrome Web Store 链接占位]_  
+## 安装 Install
+
+**推荐：从 Chrome 网上应用店安装** → [听页 · Chrome Web Store](https://chromewebstore.google.com/detail/tingye/kieblffmgkdmhfjhomeobekceeakfgko)
+
+> Install from the [Chrome Web Store](https://chromewebstore.google.com/detail/tingye/kieblffmgkdmhfjhomeobekceeakfgko). 手动安装（ZIP / 开发者模式）见下文。
+
 官网: [iding.net](https://iding.net)
 
 ---
@@ -28,7 +33,7 @@ Chrome 网上应用店（即将上线）: _[Chrome Web Store 链接占位]_
 
 ---
 
-## 安装 Install
+## 手动安装 Manual install
 
 ### 方式 A：加载已解压扩展（开发者模式）
 
@@ -43,8 +48,8 @@ Chrome 网上应用店（即将上线）: _[Chrome Web Store 链接占位]_
 2. 解压到任意文件夹
 3. 按方式 A 加载该文件夹
 
-> Chrome Web Store 一键安装：链接上线后补在此处。  
-> _One-click install from Chrome Web Store: link TBD._
+> 一键安装请用 [Chrome 网上应用店](https://chromewebstore.google.com/detail/tingye/kieblffmgkdmhfjhomeobekceeakfgko)。  
+> _One-click install: [Chrome Web Store](https://chromewebstore.google.com/detail/tingye/kieblffmgkdmhfjhomeobekceeakfgko)._
 
 ---
 
